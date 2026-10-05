@@ -8,10 +8,13 @@ public class Book extends LibraryItem{
         super(title,author,year);
         this.pageCount = trackCount;
     }
+    public int getPageCount() {
+        return pageCount;
+    }
     public String toString() {
-        return "Book: <" + title + "> by <" + author + "> (<" + year + ">) - <" + pageCount + "> pages";
+        return "Book: " + title + " by " + author + " (" + year + ") - " + pageCount + " pages";
     }
     public void readBook(){
-        System.out.println("Reading <" + title + "> by <" + author + ">...\n" + "Done!");
+        System.out.println("Reading " + title + " by " + author + "...\n" + "Done!");
     }
 }

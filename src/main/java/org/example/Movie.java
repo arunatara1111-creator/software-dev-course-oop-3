@@ -6,7 +6,10 @@ public class Movie extends LibraryItem{
         super(title, author, year);
         this.durationInMinutes = trackCount;
     }
+    public int getDurationInMinutes() {
+        return durationInMinutes;
+    }
     public String  toString(){
-        return "Movie: <" + title + "> by <" + author + "> (< " + year + ">) - <" + durationInMinutes + "> minutes";
+        return "Movie: " + title + " by " + author + " (" + year + ") - " + durationInMinutes + " minutes";
     }
 }

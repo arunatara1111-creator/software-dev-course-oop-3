@@ -10,6 +10,6 @@ public class Album extends LibraryItem{
         return trackCount;
     }
     public String toString(){
-        return "Album: <" + title + "> by <" + author + "> (<" + year + ">) - <" + trackCount + "> tracks";
+        return "Album: " + title + " by " + author + " (" + year + ") - " + trackCount + " tracks";
     }
 }

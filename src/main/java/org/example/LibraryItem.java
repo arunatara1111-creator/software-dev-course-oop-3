@@ -21,7 +21,7 @@ public class LibraryItem {
         }
     public String toString()
     {
-        return "Item:" + "<" + title + "> by <" + author + "> (<" + year + ">)";
+        return "Item:" + "" + title + " by " + author + " (" + year + ")";
     }
 }
 
